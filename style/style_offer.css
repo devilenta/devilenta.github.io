@@ -1,0 +1,221 @@
+@import url(style_home.css);
+
+
+.section1_offer{
+    overflow-y: hidden;
+    width: 100%;
+ 
+   /* background-image: url("../img/backgraund_offer.png") ; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-color: #FADA7A;
+   /* margin-top: 5%; */
+   padding: 5%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.section1_offer h2{
+    display: flex;
+    justify-content: center;
+width: 100%;
+align-items: center;
+
+}
+.text_area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+        padding: 100px;
+
+
+    }
+
+.text_area li {
+    font-size: larger;
+    list-style-type: circle;
+    display: flex
+;
+    width: 70%;
+}
+.section2_offer{
+    height: 1470px;
+}
+.form_offer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+
+}
+.form_offer_title{
+    margin-top: 10%;
+    border: 2px solid;
+    display: flex;
+    width: 65%;
+    
+    padding: 30px;
+    justify-content: center;
+    
+
+
+    border-bottom: 0px;
+}
+.form_offer_info{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    width: 65%;
+    height: 60%;
+    align-items: flex-start;
+    border: 2px solid;
+    margin-bottom: 300px;
+    padding: 55px;
+
+}
+.form_offer_info span {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+.one_moment{
+    /* border: 1PX solid; */
+    /* height: 450px; */
+    margin: auto;
+    display: flex;
+    width: 30%;
+    background-color:#F3FAFF ;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.one_moment h2{
+    text-align: center;
+    width: 100%;
+    border: 1PX solid;
+}
+.one_moment h3{
+    text-align: center;
+    border: 1PX solid;
+    /* height: 200px; */
+    width: 33.3333333333%;
+}
+.one_moment div{
+    display: flex;
+    flex-direction: column;
+
+
+    width: 100%;
+    height: 300px;
+    border: 1PX solid;
+}
+.one_moment span {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+   
+    padding-left: 13%;
+    align-items: center;
+    overflow: hidden;
+    height: 20%;
+    width: 90%;
+    
+}
+.one_moment img {
+    /* margin: 15px; */
+    /* position: absolute; */
+    margin: 7%;
+    width: 40px;
+    height: 40px;
+    
+    
+}
+.one_moment h4 {
+
+    width: 30%;
+}
+
+.one_moment p {
+   
+    color: green;
+    font-weight: bold;
+    
+}
+.one_moment p.red{
+
+    color: #ff0000;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width : 985px) {
+    .form_offer{
+        height: 50%;
+        display: flex;
+        align-content: flex-start;
+        margin-bottom: 15%;
+        /* justify-content: center; */
+        
+
+
+    }
+    .section2_offer{
+        height: 100%;
+    }
+    .section1_offer{
+
+        margin-top: 15vh;
+        /* font-size: 15px; */
+        padding: 0;
+    }
+    .section1_offer H2 {
+        font-size: 18px;
+        padding: 30px;
+        justify-content: start;
+        margin-right: 5%;
+    }
+    .section1_offer li {
+        font-size: 18px;
+        padding: 5%;
+        /* justify-content: start; */
+    }
+
+
+.text_area{
+    width: 100%;
+    padding: 0;
+}
+.text_area li {
+    font-size: 15px;
+    /* list-style-type: circle; */
+    display: flex
+;
+    width: 90%;
+}
+.form_offer_info {
+    height: 35%;
+    width: 85%;
+    margin-bottom: 0;
+    padding: 3%;
+}
+.form_offer_title{
+    width: 85%;
+    font-size: 20px;
+    /* justify-content: start; */
+    height: 12%;
+    margin-top: 15VH;
+
+}
+.one_moment{
+
+    width: 100%;
+}
+
+
+}
