@@ -247,7 +247,7 @@ justify-content: space-between;
     text-align: center;
     /* justify-content: space-evenly; */
     overflow-y: hidden;
-    width: 160vw;
+    width: 300vw;
     height: 700px;
     background-color:#F3FAFF ;
     
@@ -260,7 +260,8 @@ justify-content: space-between;
 .text_sec{
    display: flex;
    align-items: center;
-   margin: auto 20%;
+   text-align: center;
+   margin: auto 30vw;
     /* margin-top: 0px 40px; */
     width: 100%;
 }
@@ -274,14 +275,14 @@ justify-content: space-between;
     
 }
 .box{
-    width: 36vw;
-    
+    width: 20vw;
+    /* padding: 20px; */
     overflow-y: hidden;
     height: 90%;
     background-color: #fafafa;
     box-shadow: 0px 0px 20px #bdbdbd;
     border-radius: 15px;
-    margin: 0px 3vw;
+    margin: 0px 2.5vw;
     /* animation: test 0s ease-in forwards; */
     transition: 0.5s;
     /* overflow-y: hidden; */
@@ -345,7 +346,7 @@ display: none;
     display: flex
     ;
         height: 10%;
-        width: 100%;
+        width: 53%;
         /* margin-top: 90px; */
         align-items: center;
         margin-right: -30vw;
@@ -693,7 +694,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         display: flex
 ;
         align-items: center;
-        margin: auto 4%;
+        margin: auto 3%;
         width: 100%;
     }
     
@@ -723,6 +724,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         display: flex;
         flex-wrap: wrap;
         height: 80%;
+        width: 28vw;
         /* margin: 0px 3vw; */
     }
     
@@ -735,6 +737,18 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
     .text_box h3{
         font-size: 12px;
     }
+    .selector_box{
+        display: flex
+        ;
+            height: 10%;
+            width: 20%;
+            /* margin-top: 90px; */
+            align-items: center;
+            margin-right: -80vw;
+            justify-content: center;
+        
+        
+    }
     
     .massage_box{
         /* transition: 1s; */
@@ -743,7 +757,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         direction: ltr;
         display: block;
         width: 100vw;
-        height: 30%;
+        height: 35%;
         box-shadow: #478CCF 0px 0px 9px 0px;
         font-size: 25px;
         text-align: center;

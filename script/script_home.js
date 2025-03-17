@@ -16,8 +16,15 @@ btn_main.addEventListener("click",() =>{
 box.forEach((box_click)=>{
     
     window.addEventListener("load",function(){
+        if(window.outerWidth <= 985){
 
-        box_click.style.transform = "translateX(31vw)"
+            box_click.style.transform = "translateX(236%)"
+        }else{
+
+            box_click.style.transform = "translateX(250%)"
+        }
+        
+
         
     })
     
@@ -88,30 +95,103 @@ function move_box_func(box , box_click){
     
 
     box.forEach(function(ghum){
-        
+       
+        if(window.outerWidth <= 985){
+
+            if(box_click.dataset.a == 1){
+            
+            
+                ghum.style.transform = "translateX(0vw)"
+                
+                
+            }
+            
+            if(box_click.dataset.a == 2){
+                
+                
+                ghum.style.transform = "translateX(118%)"
+                
+                
+            }
+            
+            
+            if(box_click.dataset.a == 3){
+                
+                
+                ghum.style.transform = "translateX(236%)"
+                
+            }
+            
+            if(box_click.dataset.a == 4){
+                
+                
+                ghum.style.transform = "translateX(354%)"
+                
+                
+            }
+            
+            if(box_click.dataset.a == 5){
+                
+                
+                ghum.style.transform = "translateX(472%)"
+                
+                
+            }
+
+
+        }else{
+
+
+            
+            
         if(box_click.dataset.a == 1){
-
-
+            
+            
             ghum.style.transform = "translateX(0vw)"
-
-
-         }
-
-         if(box_click.dataset.a == 2){
-
-
-             ghum.style.transform = "translateX(31vw)"
-
-
-          }
-
-
-         if(box_click.dataset.a == 3){
-
-
-            ghum.style.transform = "translateX(62vw)"
+            
+            
+        }
+        
+        if(box_click.dataset.a == 2){
+            
+            
+            ghum.style.transform = "translateX(125%)"
+            
+            
+        }
+        
+        
+        if(box_click.dataset.a == 3){
+            
+            
+            ghum.style.transform = "translateX(250%)"
+            
+        }
+        
+        if(box_click.dataset.a == 4){
+            
+            
+            ghum.style.transform = "translateX(375%)"
+            
+            
+        }
+        
+        if(box_click.dataset.a == 5){
+            
+            
+            ghum.style.transform = "translateX(500%)"
+            
+            
+        }
+        
+    }
+        
+        //  if(box_click.dataset.a == 7){
+            
+        
+        //     ghum.style.transform = "translateX(0%)"
     
-          }
+        //   }
 
         })
 }
