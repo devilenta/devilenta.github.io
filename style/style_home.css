@@ -677,7 +677,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         background-color: #478CCF;
         color: #ffffff;
         border: 0;
-        width: 160px;
+        width: 120px;
         height: 40px;
         border-radius: 9px;
     }
@@ -757,7 +757,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         direction: ltr;
         display: block;
         width: 100vw;
-        height: 35%;
+        height: 50%;
         box-shadow: #478CCF 0px 0px 9px 0px;
         font-size: 25px;
         text-align: center;
