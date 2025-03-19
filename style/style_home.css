@@ -105,9 +105,13 @@ button{
     
 }
 .icon_main{
+    display: flex;
     width: 30%;
     margin-right: 50px;
+    align-items: center;
+    
 }
+
 
 
 .header_btn{
@@ -623,11 +627,13 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         font-weight: bold;
     }
     .icon_main{
-        width: 10vw;
+        /* width: 10vw; */
+        font-size: 12px;
 
     }
+  
     .icon_main img{
-        width: 10vw;
+        width: 20vw;
 
     }
     
@@ -701,6 +707,9 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         align-items: center;
         margin: auto 3%;
         width: 100%;
+    }
+    .section2{
+        overflow: scroll;
     }
     
 
