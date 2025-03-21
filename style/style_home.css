@@ -385,7 +385,8 @@ display: none;
 
     display: flex;
     justify-content: space-evenly;;
-    width: 100%;
+    width: 60%;
+    margin: auto;
     /* height: 100%; */
 
     
