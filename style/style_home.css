@@ -53,7 +53,7 @@ body{
     
    
         overflow-x: hidden;
-        width: 100vw;
+        /* width: 100vw; */
     
     
     
@@ -187,7 +187,8 @@ justify-content: space-between;
 .section1{
     display: flex;
     justify-content: space-evenly;;
-    width: 100%;
+    /* width: 100%; */
+    /* overflow-x: hidden; */
     /* height: 90vh; */
     
     
@@ -253,7 +254,7 @@ justify-content: space-between;
     text-align: center;
     /* justify-content: space-evenly; */
     overflow-y: hidden;
-    width: 300vw;
+    /* width: 300vw; */
     height: 700px;
     background-color:#F3FAFF ;
     
@@ -267,21 +268,21 @@ justify-content: space-between;
    display: flex;
    align-items: center;
    text-align: center;
-   margin: auto 30vw;
+   margin: auto 25vw;
     /* margin-top: 0px 40px; */
     width: 100%;
 }
 
 .section2_box{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     padding:  30px 0px;
     
     
     
 }
 .box{
-    width: 20vw;
+    min-width: 20vw;
     /* padding: 20px; */
     overflow-y: hidden;
     height: 90%;
@@ -353,10 +354,10 @@ display: none;
     display: flex
     ;
         height: 10%;
-        width: 53%;
+        width: 100vw;
         /* margin-top: 90px; */
         align-items: center;
-        margin-right: -30vw;
+        /* margin-right: -30vw; */
         justify-content: center;
     
     
@@ -606,7 +607,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         display: flex;
         position: fixed;
         height: 14vh;
-        width: 100%;
+        width: 100vw;
         justify-content: space-around;
         z-index: 100;
         
@@ -705,7 +706,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         display: flex
 ;
         align-items: center;
-        margin: auto 3%;
+        /* margin: auto ; */
         width: 100%;
     }
     .section2{
@@ -738,8 +739,8 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         display: flex;
         flex-wrap: wrap;
         height: 90%;
-        width: 28vw;
-        margin: auto;
+        min-width: 31vw;
+        margin:  0px 2vw;
         /* margin: 0px 3vw; */
     }
     
@@ -772,7 +773,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         direction: ltr;
         display: block;
         width: 100vw;
-        height: 50%;
+        height: 37%;
         box-shadow: #478CCF 0px 0px 9px 0px;
         font-size: 25px;
         text-align: center;
