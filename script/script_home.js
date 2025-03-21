@@ -7,7 +7,7 @@ let massage_box = document.querySelector(".massage_box")
 
 btn_main.addEventListener("click",() =>{
 
-    window.location.href = "https://devilenta.github.io/Accounting-website/shopping.html";
+    window.location.href = "https://devilenta.github.io/project_iman/shopping.html";
     
 })
 
