@@ -1,13 +1,23 @@
-let btn_main = document.querySelector(".btn_main")
+let btn_main = document.querySelectorAll(".btn_main")
 let box = document.querySelectorAll(".box")
 let selector = document.querySelectorAll(".selector")
 let massage_box = document.querySelector(".massage_box")
 
 
 
-btn_main.addEventListener("click",() =>{
 
-    window.location.href = "https://devilenta.github.io/project_iman/shopping.html";
+btn_main[0].addEventListener("click",() =>{
+
+    window.location.href = "http://www.beerlian.ir/shopping.html";
+    
+})
+
+
+btn_main[1].addEventListener("click",() =>{
+
+    window.location.href = "http://www.uplod.ir/users/brilsoft";
+   
+    
     
 })
 
