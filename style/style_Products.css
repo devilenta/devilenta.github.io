@@ -4,10 +4,12 @@
     flex-wrap: wrap;
     width: 100%;
     height: 1600px;
+    overflow-y: hidden;
 }
 .section1_products{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     /* padding: 80px; */
     /* padding-top:110px; */
     height: 60vh;
@@ -89,6 +91,10 @@
 
 
 }
+.diamond_icon{
+ width: 6vw;
+
+}
 .section2_products_sec1 p{
     font-size: 15px;
     padding: 5%;
@@ -104,7 +110,7 @@
 
     display: flex;
     flex-wrap: wrap;
-
+    
 
     width: 100%;
     /* height: 65vh; */

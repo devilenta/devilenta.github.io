@@ -55,7 +55,7 @@ align-items: center;
 }
 .form_offer_title{
     margin-top: 10%;
-    border: 2px solid;
+    border: 2px solid #478CCF;
     display: flex;
     width: 65%;
     
@@ -74,7 +74,7 @@ align-items: center;
     width: 65%;
     height: 60%;
     align-items: flex-start;
-    border: 2px solid;
+    border: 2px solid #478CCF;
     margin-bottom: 300px;
     padding: 55px;
 
@@ -100,11 +100,11 @@ align-items: center;
 .one_moment h2{
     text-align: center;
     width: 100%;
-    border: 1PX solid;
+    border: 1px solid #478CCF;
 }
 .one_moment h3{
     text-align: center;
-    border: 1PX solid;
+    border: 1PX solid 478CCF;
     /* height: 200px; */
     width: 33.3333333333%;
 }
@@ -115,7 +115,7 @@ align-items: center;
 
     width: 100%;
     height: 300px;
-    border: 1PX solid;
+    border: 1PX solid 478CCF;
 }
 .one_moment span {
     display: flex;

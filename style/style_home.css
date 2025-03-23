@@ -632,13 +632,18 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         font-weight: bold;
     }
     .icon_main{
+        display: flex;
         /* width: 10vw; */
-        font-size: 12px;
+        font-size: 10px;
+        flex-wrap: wrap;
+        flex-direction: column
+
+;
 
     }
   
     .icon_main img{
-        width: 20vw;
+        width: 10vw;
 
     }
     
@@ -756,7 +761,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         /* background-color: red; */
     }
     .text_box h3{
-        font-size: 12px;
+        font-size: 10px;
     }
     .selector_box{
         display: flex
