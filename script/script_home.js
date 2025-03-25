@@ -155,6 +155,27 @@ function move_box_func(box , box_click){
             
             
         }
+        if(box_click.dataset.a == 6){
+            
+            
+            ghum.style.transform = "translateX(625%)"
+            
+            
+        }
+        // if(box_click.dataset.a == 7){
+            
+            
+        //     ghum.style.transform = "translateX(750%)"
+            
+            
+        // }
+        // if(box_click.dataset.a == 8){
+            
+            
+        //     ghum.style.transform = "translateX(875%)"
+            
+            
+        // }
         
     }
         
