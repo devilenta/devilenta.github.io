@@ -2,6 +2,7 @@ let btn_main = document.querySelectorAll(".btn_main")
 let box = document.querySelectorAll(".box")
 let selector = document.querySelectorAll(".selector")
 let massage_box = document.querySelector(".massage_box")
+let btn_selector = document.querySelectorAll(".btn_selector")
 
 
 
@@ -77,10 +78,13 @@ box.forEach((box_click)=>{
     })
     
     
+    // console.log(box_click);
+    // console.log(selector[4]);
     
     
     
 })
+
 
 function show_phone_massage_box(box_click){
     massage_box.innerHTML=box_click.children[1].children[1].innerHTML
@@ -90,15 +94,53 @@ function show_phone_massage_box(box_click){
 
 
 
+btn_selector[1].addEventListener("click",()=>{
+
+   
+   
+
+    selector.forEach(function(selected){
+
+      
+        
+        if(selected.className === "selector selector_main"){
+           
+            
+            // console.log(selected);
+            selected.classList.remove("selector_main")
+            
+            
+            // selected[0].classList.add("selector_main")
+           
+           
+           
+        }
+        
+        
+        
+    })
+    
+    
+
+})
+
+
+
  
 function remove_selected_func(circle , box_click){
+    
 
     circle.forEach(function(gh){
 
-
+        
+        
+        
         gh.classList.remove("selector_main")
     })
     circle[box_click.dataset.a].classList.add("selector_main")
+    
+    
+    
 }
 ///////////////////////////////////////////////////////
 function move_box_func(box , box_click){
@@ -162,29 +204,11 @@ function move_box_func(box , box_click){
             
             
         }
-        // if(box_click.dataset.a == 7){
-            
-            
-        //     ghum.style.transform = "translateX(750%)"
-            
-            
-        // }
-        // if(box_click.dataset.a == 8){
-            
-            
-        //     ghum.style.transform = "translateX(875%)"
-            
-            
-        // }
+
         
     }
         
-        //  if(box_click.dataset.a == 7){
-            
-        
-        //     ghum.style.transform = "translateX(0%)"
-    
-        //   }
+
 
         })
 }

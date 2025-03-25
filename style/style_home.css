@@ -227,11 +227,21 @@ justify-content: space-between;
     border: 0;
     width: 220px;
     height: 60px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 9px;
+    position: absolute;
+    margin-top: 10%;
+    
+    
     
     
 }
+.btn_main.kharid{
+
+    margin-right: 45%;
+}
+
+
 .btn_main:hover {
     
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -351,8 +361,8 @@ display: none;
 
 }
 .selector_box{
-    display: flex
-    ;
+    overflow: hidden;
+        display: flex;
         height: 10%;
         width: 100vw;
         /* margin-top: 90px; */
@@ -361,6 +371,10 @@ display: none;
         justify-content: center;
     
     
+}
+.selector_box img{
+
+    margin: 30px;
 }
 .selector{
     width: 15px;
@@ -379,6 +393,7 @@ display: none;
 
 /* section3 */
 .section3{
+    overflow: hidden;
     box-sizing: border-box;
     flex-wrap: wrap;
 
@@ -387,14 +402,19 @@ display: none;
     justify-content: space-evenly;;
     width: 60%;
     margin: auto;
-    height: 300px;
+    /* height: 650px; */
     padding:  30px 0px;
     text-align: center;
     /* height: 100%; */
+    font-size: 25px;
 
     
     
 }
+.intro_img{
+    /* position: absolute; */
+}
+
 
 .video_home{
     width: 100%;
@@ -698,11 +718,21 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         background-color: #478CCF;
         color: #ffffff;
         border: 0;
-        width: 23vw;
-        height: 40px;
+        width: 20vw;
+        height: 30px;
         border-radius: 9px;
-    
+        margin-top: 5%;
+        
     }
+    .btn_main.kharid{
+        margin-right: 40%;
+        
+    }
+    .btn_main.demo{
+
+        margin-right: -15px;
+    }
+   
     button {
         font-size: 14px;
         font-weight: 100;
@@ -764,8 +794,8 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         font-size: 10px;
     }
     .selector_box{
-        display: flex
-        ;
+        display: flex;
+        /* overflow: hidden; */
             height: 10%;
             width: 20%;
             /* margin-top: 90px; */
@@ -795,6 +825,9 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         
         
         
+    }
+    .section3{
+        font-size: 12px;
     }
     .video_text h2{
 
