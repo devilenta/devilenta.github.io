@@ -411,9 +411,7 @@ display: none;
     
     
 }
-.intro_img{
-    /* position: absolute; */
-}
+
 
 
 .video_home{
@@ -654,7 +652,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
     .icon_main{
         display: flex;
         /* width: 10vw; */
-        font-size: 10px;
+        font-size: 8px;
         flex-wrap: wrap;
         flex-direction: column
 

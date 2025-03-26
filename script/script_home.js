@@ -107,7 +107,8 @@ btn_selector[1].addEventListener("click",()=>{
            
             
             // console.log(selected);
-            selected.classList.remove("selector_main")
+            // selected.classList.remove("selector_main")
+            // selected.nextElementSibling.classList.add("selector_main")
             
             
             // selected[0].classList.add("selector_main")
