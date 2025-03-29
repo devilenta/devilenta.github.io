@@ -1,11 +1,4 @@
-let section2_feature_icon = document.querySelectorAll(".section2_feature_icon")
 
-
-section2_feature_icon[2].addEventListener("click",()=>{
-
-    
-    
-})
 let test = document.querySelectorAll(".section2_feature_icon")
 
 

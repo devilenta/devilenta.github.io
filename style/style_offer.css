@@ -173,6 +173,7 @@ align-items: center;
         margin-top: 15vh;
         /* font-size: 15px; */
         padding: 0;
+        padding-bottom: 8vh;
     }
     .section1_offer H2 {
         font-size: 18px;
