@@ -85,6 +85,12 @@ align-items: center;
     width: 100%;
     text-align: left;
 }
+.form_offer_info p {
+    font-size: 10px;
+    /* font-weight: bold; */
+    width: 100%;
+    text-align: left;
+}
 .one_moment{
     /* border: 1PX solid; */
     /* height: 450px; */

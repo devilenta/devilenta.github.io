@@ -577,6 +577,17 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         
         
     }
+    .row_menu.oneproduct{
+        
+        display: flex;
+        border-bottom: 1px solid ;
+        
+        
+    }
+    .row_menu.oneproduct.open{
+
+        border-bottom: none ;
+    }
     .row_menu img {
         
         align-items: center;

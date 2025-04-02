@@ -12,6 +12,7 @@ let Products_menu = document.querySelector("#Products_menu")
 let row_menu = document.querySelectorAll(".row_menu")
 let one = document.querySelectorAll(".one")
 let sec = document.querySelectorAll(".sec")
+let oneproduct = document.querySelector(".oneproduct")
 
 let god_help = document.querySelector(".god_help")
 
@@ -59,11 +60,13 @@ close_image_header.addEventListener("click",function(){
 
 Products_menu.addEventListener("click",function(){
     
-    console.log("salam");
+    // console.log("salam");
     
     
     // setTimeout(() => {
-        
+        // console.log(oneproduct);
+        // oneproduct.style.borderBottom = "none"
+        oneproduct.classList.toggle("open")
         sec.forEach(function(row){
             //         row.style.transform = "translate(0%, -2%) scale(1)"
             row.classList.toggle("god_help")
