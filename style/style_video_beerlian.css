@@ -1,1 +1,33 @@
 @import url(style_home.css);
+
+.videopage_section1{
+    margin: auto;
+    width: 90%;
+
+    margin-bottom: 10vh;
+
+
+}
+.videopage_section1 h2{
+    text-align: center;
+
+    padding: 5vh;
+}
+.videopage_section1 span{
+
+
+    font-weight: bold;
+}
+.videopage_section1 a {
+
+    font-weight: bold;
+    color: #437593;
+}
+@media screen and (max-width : 985px) {
+
+    .videopage_section1{
+
+        margin-top: 15vh;
+    }
+    
+}
