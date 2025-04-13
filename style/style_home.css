@@ -150,7 +150,7 @@ justify-content: space-between;
     display: flex;
     position: absolute;
     width: 300px;
-    height: 170px;
+    height: 70px;
     background-color: #F3FAFF;
     box-shadow: 0px 0px 15px #b9b9b9;
     margin-top: 40px;
@@ -506,6 +506,10 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
 
 
 }
+.box_btn_footer h2{
+
+    font-size: 20px;
+}
 /* ////////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width : 1280px) {
 .text_sec{
@@ -515,6 +519,9 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
     align-items: center;
     margin: auto 14%;
     width: 100%;
+}
+.btn_header{
+    font-size: 16px;
 }
     
     
@@ -655,6 +662,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
 
         font-size: 20px;
         font-weight: bold;
+        text-align: center;
     }
     button{
    
