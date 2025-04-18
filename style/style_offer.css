@@ -86,8 +86,8 @@ align-items: center;
     text-align: left;
 }
 .form_offer_info p {
-    font-size: 10px;
-    /* font-weight: bold; */
+    font-size: 18px;
+    font-weight: bold;
     width: 100%;
     text-align: left;
 }

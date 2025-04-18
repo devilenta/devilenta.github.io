@@ -564,6 +564,11 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         
         
     }
+    #download_png{
+        width: 4vw;
+        opacity: 70%;
+        margin-left: 1vw;
+    }
  
     .row_menu{
         display: flex

@@ -2,5 +2,48 @@
 
 .articles_section1{
 
-    margin-top: 15vh;
+
+    display: flex
+;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.articles_section1 h1{
+    width: 100%;
+    font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 5vw;
+}
+.articles_section1 button{
+
+    width: 10vw;
+    height: 15vh;
+    border-radius: 10%;
+    margin-bottom: 15vh;
+}
+
+
+@media screen and (max-width : 980px) {
+    .articles_section1{
+
+        margin-top: 15vh;
+    }
+    
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .articles_section1 button{
+
+        width: 30vw;
+        height: 15vh;
+        border-radius: 10%;
+        margin-bottom: 15vh;
+    }
 }

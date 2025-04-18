@@ -30,7 +30,7 @@
     background-color: #F3FAFF;
 }
 .section2_products p{
-    width: 100%;
+    width: 90%;
     
 }
 .section2_products h2{
@@ -59,11 +59,14 @@
     flex-wrap: wrap;
     width: 50%;
     align-content: flex-start;
+    justify-content: center;
+   
+
 }
 .section2_products_sec2 img{
 
     width: 70%;
-    height: 35vh;
+    height: 55vh;
 }
 @media screen and (max-width : 985px) {
 
@@ -135,4 +138,15 @@
 
         display: none;
     }
+}
+
+@media screen and (max-width : 1280px) {
+
+    .section2_products_sec2 img{
+
+        width: 70%;
+        height: 35vh;
+    }
+
+
 }
