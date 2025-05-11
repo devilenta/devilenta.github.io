@@ -16,7 +16,7 @@ btn_main[0].addEventListener("click",() =>{
 
 btn_main[1].addEventListener("click",() =>{
 
-    window.location.href = "http://www.uplod.ir/users/brilsoft";
+    window.location.href = "https://uplod.ir/6y2jic27i184/bril_dvd.zip.htm";
    
     
     
