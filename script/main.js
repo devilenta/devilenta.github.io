@@ -105,10 +105,10 @@ Products_menu.addEventListener("click",function(){
 
 
 
-icon_group.addEventListener("click",()=>{
+// icon_group.addEventListener("click",()=>{
 
-    window.location.href = ("https://www.brilsoft.ir")
-})
+//     window.location.href = ("https://www.brilsoft.ir")
+// })
 
 
 btn_shop.addEventListener("click",()=>{
