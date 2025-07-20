@@ -147,8 +147,14 @@ sub.addEventListener("click",(event)=>{
                     localStorage.setItem('username', ghum[1].userInput);
 
                     setTimeout(function(){
+                        if(ghum[1].userInput.toLowerCase() == "admin" && ghum[1].passInput== "admin"){
 
-                        window.location.href = "http://www.beerlian.ir/index.html"
+                            window.location.href = "http://www.beerlian.ir/admin.html"
+
+                        }else{
+
+                            window.location.href = "http://www.beerlian.ir/index.html"
+                        }
                     },2000
                     )
                     
