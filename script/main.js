@@ -17,6 +17,9 @@ let oneproduct = document.querySelector(".oneproduct")
 let god_help = document.querySelector(".god_help")
 
 
+let name_user = document.querySelector("#name_user")
+let local_storage_username = localStorage.getItem("username")
+name_user.innerHTML = local_storage_username
 
 // باز منو
 

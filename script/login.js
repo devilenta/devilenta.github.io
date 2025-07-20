@@ -4,6 +4,7 @@ let phoneInput = document.querySelector("#phoneInput")
 let regester = document.querySelector("#regester")
 let sub = document.querySelector("#sub")
 let massage_login_image = document.querySelector("#massage_login_image")
+let massage_login_text = document.querySelector("#massage_login_text")
 
 
 
@@ -75,23 +76,42 @@ regester.addEventListener("click",(event)=>{
         
         
          
-         form_login.style.height ="50vh"
+         form_login.style.height ="55vh"
          form_login.style.maxHeight = "600px"
         phoneInput.style.display = "block"
           box_form_login.style.margin = "-17vh auto"
+
+              massage_login_image.style.transform = "scaleX(0) scaleY(0)"
+           massage_login_image.style.transition =  "0.5s"
+           
+                 massage_login_text.style.transform = "scaleX(0) scaleY(0)"
+           massage_login_text.style.transition =  "0s"
     }else{
         console.log("ثبت نام شدید");
-        
-        //  form_login.style.height ="40vh"
-        //  form_login.style.maxHeight = "400px"
-        // phoneInput.style.display = "none"
-        //   box_form_login.style.margin = "0 auto"
+
         fetch("https://data-base-beerlian-default-rtdb.europe-west1.firebasedatabase.app/users.json",{
             method : "POST",
             headers : {"content-type" : "application/json"},
             body : JSON.stringify(userdata)
         })
         clear_data()
+
+            massage_login_image.style.transform = "scaleX(1) scaleY(1)"
+           massage_login_image.style.transition =  "0.5s"
+           
+                 massage_login_text.style.transform = "scaleX(1) scaleY(1)"
+           massage_login_text.style.transition =  "0s"
+
+           massage_login_text.innerHTML = "ثبت نام شدید"
+
+        flag_loggin = false
+ 
+         form_login.style.height ="40vh"
+         form_login.style.maxHeight = "400px"
+        phoneInput.style.display = "none"
+          box_form_login.style.margin = "0 auto"
+
+        
     }
     
     
@@ -105,17 +125,61 @@ sub.addEventListener("click",(event)=>{
         
     if(flag_loggin == false){
         
-        
-        
-        console.log("ورود کردید");
-         massage_login_image.style.transform = "scaleX(1) scaleY(1)"
-           massage_login_image.style.transition =  "0.5s"
+
 
         fetch("https://data-base-beerlian-default-rtdb.europe-west1.firebasedatabase.app/users.json")
 
         .then(res=>res.json())
         .then(data=>Object.entries(data))
-        .then(yum =>console.log(yum))
+        .then(yum =>{
+            yum.forEach(ghum=>{
+
+                 massage_login_image.style.transform = "scaleX(1) scaleY(1)"
+           massage_login_image.style.transition =  "0.5s"
+           
+                 massage_login_text.style.transform = "scaleX(1) scaleY(1)"
+           massage_login_text.style.transition =  "0s"
+
+                if(ghum[1].userInput.toLowerCase() == userInput.value.toLowerCase() && ghum[1].passInput== passInput.value){
+
+                    massage_login_text.innerHTML = "خوش آمدید"
+                    console.log(ghum[1].userInput);
+                    localStorage.setItem('username', ghum[1].userInput);
+
+                    setTimeout(function(){
+
+                        window.location.href = "http://www.beerlian.ir/index.html"
+                    },2000
+                    )
+                    
+                    
+                    
+                }else if(!userInput.value || !passInput.value){
+
+                    massage_login_text.innerHTML = "فیلد پر کنید"
+
+
+                }
+                
+                
+                else{
+
+                                        massage_login_text.innerHTML = "نام کاربری یافت نشد"
+
+                    
+                }
+
+                
+                
+            })
+            
+            
+        }
+    
+        )
+
+        
+        
         
     }else{
         flag_loggin = false

@@ -93,15 +93,29 @@
 #massage_login_image{
 
     position: absolute;
-    width: 35%;
-    height: 30%;
-    left: 36vw;
-    top: 8vh;
-    transition: 0s;
+    width: 8%;
+    height: 12%;
+   left: 51vw;
+    top: 33vh;
+    
+    transition: 1s;
     transform: scaleX(0) scaleY(0);
 
-
 }
+#massage_login_text{
+    overflow: hidden;
 
+     position: absolute;
+    width: 7%;
+    height: 7%;
+    left: 51.5vw;
+    top: 36.5vh;
+    transition: 0s;
+    transform: scaleX(0) scaleY(0);
+    font-weight: bold;
+    font-size: 20px;
+    color: #67a5f1;
+    text-align: center;
+}
 
     
