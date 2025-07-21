@@ -119,3 +119,74 @@
 }
 
     
+@media screen and (max-width : 985px) {
+
+
+
+
+
+.box_form_login{
+    display: flex;
+    /* height: 75%; */
+    flex-direction: column;
+    margin: 0vh auto;
+    
+    width: 90%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* margin-right: 5px; */
+    margin-top: 10vh;
+    
+
+}
+.form_login{
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 0 0 5% 5%;
+
+    background-color: rgb(188, 200, 255);
+    width: 80%;
+    height: 40vh;
+    min-height: 300px;
+    max-height: 400px;
+    margin: 0 auto;
+    transition: 0.5s;
+   
+}
+.login_image{
+    width: 90%;
+    height: 45%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 6.5vw;
+    
+
+}
+
+.form_login input{
+    
+    margin: 5% auto ;
+    
+    width: 70vw;
+    height: 40px;
+    background-color: rgb(206, 231, 253);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-right: 20px;
+} 
+#regester{
+
+    width: 40%;
+    padding-right: 0;
+}
+#sub{
+    
+    width: 40%;
+    padding-right: 0;
+}
+    
+}
+
+

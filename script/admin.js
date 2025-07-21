@@ -29,7 +29,7 @@ function getAllUsers () {
                 
                     <div class="user">
                     <div class="user-profile-wrap">
-                        <img class="user-profile" src="content/img/noimg.png" alt="default-image">
+                        <img class="user-profile" src="img/noimg.png" alt="default-image">
                         <div class="user-profile-description">
                             <h1 class="user-profile-name">${user[1].userInput} - ${user[1].phoneInput}<span class="user-age"></span> </h1>
                             <h3 class="user-explanations">Pass: ${user[1].passInput}</h3>
