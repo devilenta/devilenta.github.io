@@ -94,9 +94,9 @@ function updateUser () {
 
     const userNewData = {
         
-        userInput: userInput.value,
-        phoneInput: phoneInput.value,
-        passInput: passInput.value,
+        userInput: firstname.value,
+        phoneInput: lastname.value,
+        passInput: password.value,
     }
 
     fetch(`https://data-base-beerlian-default-rtdb.europe-west1.firebasedatabase.app/users/${userID}.json`, {
