@@ -63,6 +63,17 @@ width: 24%;
     margin-right: 40px;
     
 }
+.section1_shoping_info_name h4 {
+
+ position: absolute;
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    /* margin-right: 20px; */
+    margin-top: 40px;
+    text-align: center;
+
+}
 @media screen and (max-width : 985px) {
 
     .section1_shoping{
@@ -90,6 +101,18 @@ width: 24%;
 .section1_shoping_info{
 
     width: 95%;
+}
+.section1_shoping_info_name h4 {
+
+ position: absolute;
+    display: flex;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right:0;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+
 }
 
 
